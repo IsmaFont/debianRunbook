@@ -1,0 +1,6 @@
+#############################################################################################
+WELCOME StrRAnger!
+This is my runbook for fresh debian installations. it will go ahead and update packages, install new ones, edit configs and do its magic.
+If you're unfamiliar with this script it's highly advisable that you DON'T run it, as it can screw you and your OS in the ass
+If you read it and understand what it does, go bananas.
+#############################################################################################
