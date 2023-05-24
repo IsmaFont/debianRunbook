@@ -1,6 +1,6 @@
-virtualbox-ext-pack
-virtualbox-guest-utils
-virtualbox-ext-pack
+#virtualbox-ext-pack
+#virtualbox-guest-utils
+#virtualbox-ext-pack
 git
 nodejs
 openssh-client
