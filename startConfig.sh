@@ -14,7 +14,7 @@ countDown () {
 printSpacer () {
 	printf "#############################################\n\n"
 	printf "* $*"
-	printf "\n\n#############################################\n"
+	printf "\n\n#############################################\n\n"
 }
 
 # Update repos and upgrade base packages
@@ -35,6 +35,7 @@ modBashrc () {
 	printSpacer "Modifying .bashrc file..."
 	cat bashrc.txt >> fkbashr
 	sdiff bashrc.txt fkbashr
+	source "$HOME/.bashrc"
 	printSpacer "Done modifying .bashrc file."
 }
 
